@@ -11,6 +11,7 @@ export GOPATH=/home/vcap/etcdctl
 pushd /home/vcap/
 
 git clone https://github.com/coreos/etcdctl
+cd etcdctl
 git checkout 6dcd7c2e57
 git submodule update --init
 
